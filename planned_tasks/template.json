@@ -1,0 +1,13 @@
+{
+  "id": "pt-<skill>-<slug>",
+  "skill": "<skill-id>",
+  "title": "<一句话说明>",
+  "schedule": "<本地 ISO，例 2026-12-01T09:00 或 interval:604800>",
+  "status": "pending",
+  "action": {
+    "intent": "<交给 SMS 调度器的意图>",
+    "args": []
+  },
+  "session": "",
+  "created_at": "<本地 ISO>"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "pt-qt-qtquick-expert-deps-refresh",
+  "skill": "qt-qtquick-expert",
+  "title": "季度复核 dependence/deps.json 的 Qt 官方文档与仓库原始链接可达性",
+  "schedule": "interval:7776000",
+  "status": "pending",
+  "action": {
+    "intent": "逐条访问 deps.json 的 source_url，不可达者改标 [本地] 并记 CHANGELOG",
+    "args": [
+      "python -B scripts/knowledge_index.py --check-deps",
+      "python -B scripts/check_links.py --root ."
+    ]
+  },
+  "session": "",
+  "created_at": "2026-10-07T02:00"
+}

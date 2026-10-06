@@ -1,0 +1,12 @@
+tmp/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.kilo/
+.cache/
+*.log
+build/
+*.qrc.depends
+moc_*.cpp
+qrc_*.cpp
