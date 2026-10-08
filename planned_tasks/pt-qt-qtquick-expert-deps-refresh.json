@@ -1,16 +1,23 @@
 {
-  "id": "pt-qt-qtquick-expert-deps-refresh",
-  "skill": "qt-qtquick-expert",
-  "title": "季度复核 dependence/deps.json 的 Qt 官方文档与仓库原始链接可达性",
-  "schedule": "interval:7776000",
-  "status": "pending",
-  "action": {
-    "intent": "逐条访问 deps.json 的 source_url，不可达者改标 [本地] 并记 CHANGELOG",
-    "args": [
-      "python -B scripts/knowledge_index.py --check-deps",
-      "python -B scripts/check_links.py --root ."
-    ]
-  },
-  "session": "",
-  "created_at": "2026-10-07T02:00"
+ "id": "pt-qt-qtquick-expert-deps-refresh",
+ "title": "季度复核 dependence/deps.json 的 Qt 官方文档与仓库原始链接可达性",
+ "skill": "qt-qtquick-expert",
+ "input": "逐条访问 dependence/deps.json 的 source_url 判可达性：不可达者在该条改标 [本地] 并记 CHANGELOG；随后跑 python -B scripts/knowledge_index.py --check-deps 与 python -B scripts/check_links.py --root . 复核零悬空。产物一律写 %SMS_TMP%，不得写技能目录，不得自行执行本计划任务。",
+ "schedule": {
+  "mode": "interval",
+  "at": null,
+  "cron": null,
+  "every_min": 12960
+ },
+ "session": {
+  "kind": "interval",
+  "key": "qt-qtquick-expert:pt-qt-qtquick-expert-deps-refresh"
+ },
+ "status": "pending",
+ "created": "2026-10-07T02:00",
+ "next_run": "2026-12-27T02:00",
+ "last_run": null,
+ "runs": 0,
+ "notify": "shell",
+ "depends": []
 }
