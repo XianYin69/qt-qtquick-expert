@@ -6,7 +6,7 @@
 
 ```
 file_ops             | skill    | local:skill_manage_system
-code-guidelines      | skill    | local
+general-software-dev      | skill    | local
 pavedpath-code       | skill    | local
 ui-design            | skill    | local
 database-management  | skill    | local
@@ -24,7 +24,7 @@ qt6                  | software | optional
 | 依赖 | 承担能力 | 触发节点 |
 |---|---|---|
 | file_ops | 联网检索/取页、文件读写（版本行为与 API 取证） | 浏览器学习 · 知识检索 · 经验查询 |
-| code-guidelines | 命名/注释/复杂度/评审通用准则 | 专家判断 · 整体审查 |
+| general-software-dev | 命名/注释/复杂度/评审通用准则 | 专家判断 · 整体审查 |
 | pavedpath-code | 已验证实现范式与脚手架 | 重构建议 · 输出交付 |
 | ui-design | 视觉/交互专项判断（本技能不自行裁视觉） | 领域定位（转派） |
 | database-management | 持久化/查询专项（转派，不内嵌） | 领域定位（转派） |

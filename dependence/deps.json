@@ -1,7 +1,7 @@
 {
   "dependencies": [
     {"name": "file_ops", "type": "skill", "source_url": "local://skill_manage_system", "license": "unknown", "version": "local", "install": "sms:install skill_manage_system", "checked_at": "2026-10-07T02:00", "source_url_status": "verified"},
-    {"name": "code-guidelines", "type": "skill", "source_url": "local://code-guidelines", "license": "unknown", "version": "local", "install": "sms:install code-guidelines", "checked_at": "2026-10-07T02:00", "source_url_status": "verified"},
+    {"name": "general-software-dev", "type": "skill", "source_url": "local://general-software-dev", "license": "unknown", "version": "local", "install": "sms:install general-software-dev", "checked_at": "2026-10-07T02:00", "source_url_status": "verified"},
     {"name": "pavedpath-code", "type": "skill", "source_url": "local://pavedpath-code", "license": "MIT", "version": "local", "install": "sms:install pavedpath-code", "checked_at": "2026-10-07T02:00", "source_url_status": "verified"},
     {"name": "ui-design", "type": "skill", "source_url": "local://ui-design", "license": "MIT", "version": "local", "install": "sms:install ui-design", "checked_at": "2026-10-07T02:00", "source_url_status": "verified"},
     {"name": "database-management", "type": "skill", "source_url": "local://database-management", "license": "MIT", "version": "local", "install": "sms:install database-management", "checked_at": "2026-10-07T02:00", "source_url_status": "verified"},
